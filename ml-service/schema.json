@@ -1,0 +1,34 @@
+{
+  "powerdemand": {
+    "Unnamed: 0": "int64",
+    "datetime": "object",
+    "Power demand": "float64",
+    "temp": "float64",
+    "dwpt": "float64",
+    "rhum": "float64",
+    "wdir": "float64",
+    "wspd": "float64",
+    "pres": "float64",
+    "year": "int64",
+    "month": "int64",
+    "day": "int64",
+    "hour": "int64",
+    "minute": "int64",
+    "moving_avg_3": "float64"
+  },
+  "hourlyLoad": {
+    "datetime": "datetime64[ns]",
+    "National Hourly Demand": "float64",
+    "Northen Region Hourly Demand": "float64",
+    "Western Region Hourly Demand": "float64",
+    "Eastern Region Hourly Demand": "float64",
+    "Southern Region Hourly Demand": "float64",
+    "North-Eastern Region Hourly Demand": "float64"
+  },
+  "monthlyTemp": {
+    "Year": "int64",
+    "Month": "object",
+    "Monthly_load": "float64",
+    "max_temp": "float64"
+  }
+}
